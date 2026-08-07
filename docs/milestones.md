@@ -2,21 +2,64 @@
 
 # Project Athena Milestones
 
-## M0 — Foundation
+This document records significant milestones in the development of the Teragram Platform.
 
-Date: 7 August 2026
+Milestones represent completed phases, major decisions, and foundational achievements.
 
-Status: Completed ✅
+---
 
-### Completed
+# M0 — Foundation
 
-- Fresh Raspberry Pi OS on NVMe
-- Backup strategy validated
-- Engineering principles defined
-- Development workflow established
-- First public repository created
+## Status
 
-### Outcome
+Completed ✅
 
-Established the foundation for a secure, reproducible,
-observable, maintainable, and explainable platform.
+## Date Completed
+
+Fri, 7 Aug 2026
+
+## Objective
+
+Establish the foundational engineering framework for the Teragram Platform.
+
+This milestone focused on creating the principles, documentation standards, version control workflow, and initial platform architecture approach.
+
+---
+
+## Completed Items
+
+| Item | Status | --- | --- |
+| Raspberry Pi rebuilt | ✅ |
+| NVMe boot confirmed | ✅ |
+| Backup strategy validated | ✅ |
+| GitHub repository created | ✅ |
+| Git identity configured | ✅ |
+| Engineering principles documented | ✅ |
+| First ADR created | ✅ |
+| First meaningful commit | ✅ |
+
+---
+
+## Outcome
+
+Project Athena now has:
+
+- A defined engineering philosophy.
+- A version-controlled documentation platform.
+- A decision-recording process.
+- A foundation for Infrastructure as Code.
+- A repeatable approach for future infrastructure development.
+
+---
+
+# Next Milestone
+
+## M1 — Server Foundation
+
+Planned objectives:
+
+- Establish server directory structure.
+- Document the production environment.
+- Harden operating system configuration.
+- Configure secure administration practices.
+- Begin Infrastructure as Code foundation.
