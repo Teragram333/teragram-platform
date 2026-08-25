@@ -38,6 +38,34 @@ Before implementing a change:
 - Are secrets handled securely?
 - Is there a safer alternative?
 
+### Data Minimisation
+
+Only the minimum information necessary should be disclosed when operating, documenting, troubleshooting, or collaborating on the platform.
+
+Where the real value is not technically required, use a descriptive placeholder instead.
+
+Examples:
+
+- `<ADMIN_USER>`
+- `<SERVER_HOSTNAME>`
+- `<SERVER_IP>`
+- `<DOMAIN>`
+- `<EMAIL>`
+- `<TUNNEL_ID>`
+
+Never disclose:
+
+- Passwords
+- API keys
+- Access tokens
+- Private keys
+- Encryption keys
+- Recovery codes
+- Database credentials
+- Other authentication material
+
+This principle applies to source code, documentation, issue trackers, chat, support requests, screenshots, logs, and other collaboration surfaces.
+
 ---
 
 ## 2. Reproducible ⚙️
