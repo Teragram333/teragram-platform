@@ -148,3 +148,57 @@ Each release should:
 8. Publish release notes.
 
 The version tag represents the final approved state of that release.
+
+---
+
+# Updated on Mon, 7 Sept 2026
+
+# Changelog
+
+All notable infrastructure and platform changes are documented here.
+
+The project is currently in the infrastructure foundation stage.
+
+## [Unreleased]
+
+### Planned
+
+* Containerised Teragram application
+* Application/database architecture
+* Private Docker networking
+* Health checks and monitoring
+* Deployment automation
+* Infrastructure as Code
+* Security testing
+* Production deployment workflow
+
+## 2026-09-07
+
+### Infrastructure
+
+* Completed Raspberry Pi server foundation.
+* Confirmed Debian ARM64 server environment.
+* Established Docker as the application runtime.
+* Created `/opt/containers/` organisational structure.
+* Established Cloudflare Tunnel as the public access path.
+* Routed both primary public website hostnames through the same tunnel.
+* Configured Apache as the HTTPS origin.
+* Installed and configured Cloudflare Origin CA certificate.
+* Verified local HTTPS origin connectivity.
+* Removed the previous direct DNS path that bypassed the Cloudflare Tunnel.
+* Updated server DNS configuration for reliable public DNS resolution.
+
+### Security
+
+* Adopted Cloudflare Tunnel instead of direct inbound origin exposure.
+* Adopted HTTPS between Cloudflare and Apache.
+* Kept application workloads behind the intended container/network boundary.
+* Ensured tunnel credentials and private certificate material remain outside source control.
+* Established placeholder-based documentation for deployment-specific values.
+
+### Documentation
+
+* Established public-safe infrastructure documentation.
+* Documented the layered hosting architecture.
+* Added ADR-001 covering the secure hosting architecture.
+* Updated the project README with architecture, principles, security requirements, backup strategy, and current status.
