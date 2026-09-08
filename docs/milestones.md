@@ -28,7 +28,8 @@ This milestone focused on creating the principles, documentation standards, vers
 
 ## Completed Items
 
-| Item | Status | --- | --- |
+| Item | Status |
+| --- | --- |
 | Raspberry Pi rebuilt | ✅ |
 | NVMe boot confirmed | ✅ |
 | Backup strategy validated | ✅ |
@@ -52,14 +53,46 @@ Project Athena now has:
 
 ---
 
-# Next Milestone
+# M1 — Server Foundation
 
-## M1 — Server Foundation
+## Status
 
-Planned objectives:
+Substantially complete 🟡
 
-- Establish server directory structure.
-- Document the production environment.
-- Harden operating system configuration.
-- Configure secure administration practices.
+## Objective
+
+Establish and secure the production server foundation and prepare the environment for reproducible infrastructure management.
+
+---
+
+## Completed Items
+
+| Item | Status |
+| --- | --- |
+| Server directory structure established | ✅ |
+| Production environment documented | ✅ |
+| Raspberry Pi + NVMe foundation | ✅ |
+| Debian ARM64 server environment | ✅ |
+| Apache HTTPS origin | ✅ |
+| Docker runtime foundation | ✅ |
+| Cloudflare Tunnel public access path | ✅ |
+| Origin CA certificate | ✅ |
+| Firewall baseline | ✅ |
+| SSH security posture reviewed | ✅ |
+| Service and listener audit | ✅ |
+| Unnecessary NFS service disabled | ✅ |
+| Stale Cloudflare tunnel removed | ✅ |
+
+---
+
+## Remaining
+
 - Begin Infrastructure as Code foundation.
+
+---
+
+## Outcome
+
+The production server foundation is established and the major security and exposure controls have been reviewed.
+
+The remaining M1 work is to begin codifying the infrastructure so the environment can be reproduced and managed consistently.
